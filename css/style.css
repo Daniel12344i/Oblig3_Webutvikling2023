@@ -3,21 +3,43 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  width: 100%;
+  
+  
 }
 
 header {
-  background-color: white;
-  color: black;
-  display: flex;
-  justify-content: space-between;
+  
+  background-color: bisque;
+  
   align-items: center;
-  padding: 10px 20px;
+  display: flex;
 }
 
-.logo {
-  font-size: 24px;
 
+.logo {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  margin: 20px;
+  float: left;
+  text-shadow: 3px 2px rgba(179, 245, 193, 0.612);
+  text-transform: uppercase;
+
+}
+
+
+
+
+
+img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+.collection{
+  
+  text-align: center;
+  margin-top: 100px;
 }
 
 #check,#checkbox_toggle{
@@ -25,16 +47,18 @@ header {
 }
 nav ul li{
   display: inline;
-  background-color: black;
-  font-size: 24px;
+  font-size: 20px;
+  
 
  
 }
 
-a.active,a:hover{
-  background: wheat;
+a.active{
   transition: .5s;
 }
+
+
+
 
 .menu-button-container {
   display: none;
@@ -54,11 +78,47 @@ ul.navigation li {
 
 ul.navigation li a {
   text-decoration: none;
-  color: white;
+  color: black;
+  font-weight: bold;  
+
 }
 
+
+.shop-now{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  
+
+
+
+}
+
+.fa{
+  padding: 20px;
+  font-size: 50px;
+  width: 20px;
+  text-align: center;
+  margin: 5px 2px;
+  text-decoration: none;
+}
+
+.fa-facebook{
+  background-color: #3B5998;
+  color: white;
+}
+.fa-twitter{
+  background-color: #3B5998;
+  color: white;
+}
+.fa-instagram{
+  background-color: #3B5998;
+  color: white;
+}
 /* Responsivt design for mobile enheter */
-@media screen and (max-width: 858px) {
+@media screen and (max-width: 1000px) {
   .menu-button-container {
     display: block;
      /* Vis hamburgerikonet på mobilvisning */
@@ -82,7 +142,6 @@ ul.navigation li a {
     position: fixed;
     top: 60px;
     right: -120%;
-   
     width: 100%;
     height: 100vh;
     transition: all .6s;
@@ -101,6 +160,12 @@ ul.navigation li a {
         display: block;
       }
       
+  
+      header,#checkbox_toggle{
+        display: flex;
+        justify-content:space-between;
+
+      }
 
   #checkbox_toggle{
     display: inline;
@@ -109,6 +174,7 @@ ul.navigation li a {
   position: relative;
   text-transform: none;
   margin-right: 40px;
+  
 
   }
 
@@ -123,11 +189,7 @@ ul.navigation li a {
     
   }
 
-  img{
-    width: 300px;
-    padding: 30px;
-    margin-top: 50px;
-  }
+ 
 
   .collection{
     background-color: white;
