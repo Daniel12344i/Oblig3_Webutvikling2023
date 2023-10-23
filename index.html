@@ -3,16 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>SneakerWave</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
-    <header>
-      <h1 class="logo">SneakerWave</h1>
-      <nav>
+    <div class="grid-container">
+    <header class="grid-header">
+      <a href="index.html"><h1 class="logo" >SneakerWave</h1></a>
+      <nav class="grid-nav">
         <input type="checkbox" id="check" />
         <label for="check" id="checkbox_toggle" class="hamburger">&#9776;</label>
         </label>
@@ -21,9 +22,8 @@
           <li><a href="#men">Men</a></li>
           <li><a href="#women">Women</a></li>
           <li><a href="produkt.html">Latest collection</a></li>
-          <li><a href="#Brands">Brands</a></li>
-          <li><a href="#Blog">Blog</a></li>
-          <li><a href="about-us.html">About us</a></li>
+        <li><a href="#Brands">Brands</a></li>//
+        <li><a href="about-us.html">About us</a></li>
         </ul>
 
        
@@ -36,13 +36,13 @@
 
       </ul>
     </header>
-    <main  >
+    <main class="grid-main" >
      
       <section class="bimg">
       <article  class="collection">
         <h4 style="font-size: 24px; ">Our latest collection</h4>
         <h1 style="font-size: 32px;"><strong style="text-transform:uppercase ;">Step into the future with style</strong></h1>
-        <button class="shop-now">Shop now</button>
+        <a href="produkt.html"><button class="shop-now">Shop now</button></a>
       </article>
       <figure >
         <img class="frontimg" src="img/collection.png" alt="">
@@ -58,18 +58,19 @@
     <article><h1>We provide high quality shoes</h1>
       <p>At SneakerWave, we take pride in delivering sneakers that redefine quality and style.</p>
       <p>Our commitment to providing you with the finest footwear is at the core of everything we do.</p>
-    <button class="explore">Explore more</button></article>
+    <a href="about-us.html"><button class="explore">Explore more</button></a>
+  </article>
     
     </section>
 
     <section class="categories">
       <h1>Categories</h1>
       <article class="imgarticle">
-      <a class="mencategory" href="https://unsplash.com/photos/person-sitting-on-top-of-a-roof-6LmtCfVYUPQ"><p class="men">Men</p></a>
+      <a class="mencategory" href="https://unsplash.com/photos/person-sitting-on-top-of-a-roof-6LmtCfVYUPQ" target="_blank"><p class="men">Men</p></a>
       
-      <a class="womencategory"  href="https://unsplash.com/photos/a-woman-sitting-on-the-ground-with-her-legs-crossed-wdXWzVxmwrE"><p class="women">Women</p></a>
+      <a class="womencategory"  href="https://unsplash.com/photos/a-woman-sitting-on-the-ground-with-her-legs-crossed-wdXWzVxmwrE" target="_blank"><p class="women">Women</p></a>
       
-      <a class="kidscategory"  href="https://pixabay.com/photos/shoes-sneakers-child-legs-feet-6688963/"><p class="kids">Kids</p></a>
+      <a class="kidscategory"  href="https://pixabay.com/photos/shoes-sneakers-child-legs-feet-6688963/" target="_blank"><p class="kids">Kids</p></a>
     </article>
     </section>
 
@@ -84,7 +85,7 @@
   
        
     </main>
-    <footer>
+    <footer class="grid-footer">
       <section class="maillist">
       <h1>
         Join our mailing list
@@ -130,5 +131,6 @@
 
 
     </footer>
+    </div>
   </body>
 </html>
