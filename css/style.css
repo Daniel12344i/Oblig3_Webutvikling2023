@@ -321,18 +321,23 @@ footer{
   
   
 }
+
+
+
 .shopsection{
-  display:flex;
-  
+  display: flex;
 }
 
-.shopsection li{
-  list-style: none;
-  
-}
-
-.shopsection ul li a{
+.shopsection a {
+  display: flex;
+  padding: 10px;
   text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.shopsection h1{
+  font-size: 24px;
 }
 
 .membership{
