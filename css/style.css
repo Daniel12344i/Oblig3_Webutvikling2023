@@ -13,28 +13,7 @@ body {
 
 
 
-ul li ul.dropdown li{
-  display: block;
-}
 
-ul li ul.dropdown{
-  width: 100%;
-  background:rgb(131, 131, 150);
-  position:absolute;
-  z-index: 999;
-  display: none;
-  height: 300px;
-  line-height: 100px;
-  align-items: center;
-  
-}
-
-ul li a:hover{
-  background:black;
-}
-ul li:hover ul.dropdown{
-  display: block;
-}
 
 
 
