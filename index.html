@@ -26,6 +26,27 @@
       content="Sneaker collection 2023, Sneakers, Mens sneakers, Adidas sneakers, Sneaker store, Sneaker trends, Jordan, Adidas, Puma, Nike air force 1, Nike dunk lows"
     />
   </head>
+  <style>
+    a.skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background-color: #007bff;
+      color: #fff;
+      padding: 8px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease-in-out;
+      text-decoration: none; /* Remove underline from the link */
+    }
+
+    a.skip-link:focus {
+      outline: none;
+      opacity: 1;
+      visibility: visible;
+    }
+  </style>
+  <!-- hddde problme med øviring av css fila , derfor syle dette her-->
 
   <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -121,7 +142,6 @@
                   padding: 20px;
                   padding-left: 70px;
                 "
-                class="men"
               >
                 Men
               </figcaption>
@@ -142,7 +162,6 @@
                   padding: 20px;
                   padding-left: 70px;
                 "
-                class="women"
               >
                 Women
               </figcaption>
@@ -163,7 +182,6 @@
                   padding: 20px;
                   padding-left: 70px;
                 "
-                class="kids"
               >
                 Kids
               </figcaption>
