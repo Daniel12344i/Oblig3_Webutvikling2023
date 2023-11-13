@@ -14,10 +14,6 @@ body {
 
 
 
-
-
-
-
 .grid-container{
   display: grid;
   grid-template-areas:
@@ -81,12 +77,24 @@ nav{
 
 }
 
-
+.collectionfigure{
+  width:100% ;
+  height: 100%;
+  object-fit: contain;
+}
 
 .frontimg{
   width:100%;
   border-radius: 5px;
 }
+
+.seosection{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+
 
 
 .collection{
@@ -235,8 +243,7 @@ ul.navigation li a {
 .men{
   display: flex;
   justify-content: start;
-  margin-top: 130px;
-  color: white;
+  color: black;
   font-size: 20px;
   padding: 20px;
   padding-left: 70px;
@@ -258,8 +265,7 @@ ul.navigation li a {
 .women{
   display: flex;
   justify-content: start;
-  margin-top: 130px;
-  color: white;
+  color: black;
   font-size: 20px;
   padding: 20px;
   padding-left: 70px;
@@ -279,8 +285,8 @@ ul.navigation li a {
 .kids{
   display: flex;
   justify-content: start;
-  margin-top: 130px;
-  color: white;
+  
+  color: black;
   font-size: 20px;
   padding: 20px;
   padding-left: 70px;
@@ -385,6 +391,101 @@ display: flex;
 .product-item p{
   padding-left: 40px;
   font-weight: bold;
+  
+}
+
+table{
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  
+
+}
+
+.tabelsection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.analyse-h1{
+  text-align: center;
+}
+
+
+.UUsection{
+  display: flex;
+  justify-content: space-between;
+  flex-flow:wrap;
+
+}
+
+/*flex-wrap: wrap;*/
+figure{
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+figure img{
+  width: 100%;
+height: 90%;
+  object-fit: contain;
+}
+a.skip-link:focus {
+  outline: none;
+  opacity: 1;
+  visibility: visible;
+
+}
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 8px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.skip-link:focus {
+  outline: none;
+  opacity: 1;
+  visibility: visible;
+}
+
+.young{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+figcaption{
+  text-align: center;
+}
+
+.chatgpt-løsning{
+  display: flex;
+  justify-content: space-between;
+  flex-flow:wrap;
+  margin-bottom: 100px;
+}
+
+.sammenligning{
+  margin-bottom: 100px;
+}
+.forbedret{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
   
 }
 /* Responsivt design for mobile enheter */

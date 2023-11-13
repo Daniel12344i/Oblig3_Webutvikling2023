@@ -13,17 +13,31 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <meta
+      name="google-site-verification"
+      content="AYP2NkS0kk4mh2o-ghBxr7n0ig8ZzYlc0TooIcwUDnU"
+    />
+    <meta
+      name="description"
+      content="Explore the latest Sneaker Collection 2023 and discover a wide range of Sneakers for Men. Shop Adidas, Jordan, Puma, Nike Air Force 1, and more at our Sneaker Store. Stay updated with Sneaker Trends."
+    />
+    <meta
+      name="keywords"
+      content="Sneaker collection 2023, Sneakers, Mens sneakers, Adidas sneakers, Sneaker store, Sneaker trends, Jordan, Adidas, Puma, Nike air force 1, Nike dunk lows"
+    />
   </head>
 
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <div class="grid-container">
       <header class="grid-header">
         <a href="index.html"><h1 class="logo">SneakerWave</h1></a>
-        <nav class="grid-nav">
-          <input type="checkbox" id="check" />
+        <nav class="grid-nav" role="nav">
           <label for="check" id="checkbox_toggle" class="hamburger"
             >&#9776;</label
           >
+          <input type="checkbox" id="check" />
 
           <ul class="navigation">
             <li><a class="active" href="index.html">Home</a></li>
@@ -31,31 +45,32 @@
             <li><a href="#women">Women</a></li>
             <li><a href="produkt.html">Latest collection</a></li>
             <li><a href="#Brands">Brands</a></li>
-
             <li><a href="about-us.html">About us</a></li>
+            <li><a href="analyse.html">Analyse</a></li>
           </ul>
         </nav>
         <ul class="icons">
-          <li class="fa fa-search" style="color: white"><a href="#"></a></li>
-          <li><a class="fa fa-heart" href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a class="fa fa-shopping-cart" href="#"></a></li>
+          <li>
+            <a class="fa fa-search" style="color: white"></a>
+          </li>
+          <li><a class="fa fa-heart"></a></li>
+          <li><a class="fa fa-shopping-cart"></a></li>
         </ul>
       </header>
-      <main class="grid-main">
+      <main class="grid-main" role="main">
         <section class="bimg">
           <article class="collection">
-            <h4 style="font-size: 24px">Our latest collection</h4>
-            <h1 style="font-size: 32px">
+            <h2 style="font-size: 24px">Our latest collection</h2>
+            <h2 style="font-size: 32px">
               <strong style="text-transform: uppercase"
                 >Step into the future with style</strong
               >
-            </h1>
+            </h2>
             <a href="produkt.html">
               <button class="shop-now">Shop now</button></a
             >
           </article>
-          <figure>
+          <figure class="collectionfigure">
             <img class="frontimg" src="img/collection.png" alt="" />
           </figure>
         </section>
@@ -63,13 +78,16 @@
         <section class="highquality">
           <article>
             <a href="https://unsplash.com/photos/SD9Jyl1xNQ4"
-              ><img src="img/nikeairforce.jpg" style="width: 200px" alt=""
+              ><img
+                src="img/nikeairforce.jpg"
+                style="width: 200px"
+                alt="nike air force"
             /></a>
             <a href="https://unsplash.com/photos/Y4fKN-RlMV4">
               <img
                 src="img/grayrunningshoes.jpg"
                 style="width: 200px"
-                alt="graynunningshoe"
+                alt="gray nunning shoe"
             /></a>
           </article>
 
@@ -92,26 +110,40 @@
         <section class="categories">
           <h1>Categories</h1>
           <article class="imgarticle">
-            <a
-              class="mencategory"
-              href="https://unsplash.com/photos/person-sitting-on-top-of-a-roof-6LmtCfVYUPQ"
-              target="_blank"
-              ><p class="men">Men</p></a
-            >
+            <figure>
+              <img class="mencategory" src="img/man.jpg" alt="Men Image" />
+              <figcaption class="men">Men</figcaption>
+            </figure>
 
-            <a
-              class="womencategory"
-              href="https://unsplash.com/photos/a-woman-sitting-on-the-ground-with-her-legs-crossed-wdXWzVxmwrE"
-              target="_blank"
-              ><p class="women">Women</p></a
-            >
+            <figure>
+              <img
+                class="womencategory"
+                src="img/ladywithjordan.jpg"
+                alt="Women Image"
+              />
+              <figcaption
+                style="
+                  display: flex;
+                  justify-content: start;
+                  color: black;
+                  font-size: 20px;
+                  padding: 20px;
+                  padding-left: 70px;
+                "
+                class="women"
+              >
+                Women
+              </figcaption>
+            </figure>
 
-            <a
-              class="kidscategory"
-              href="https://pixabay.com/photos/shoes-sneakers-child-legs-feet-6688963/"
-              target="_blank"
-              ><p class="kids">Kids</p></a
-            >
+            <figure>
+              <img
+                class="kidscategory"
+                src="img/shoes-6688963_960_720.jpg"
+                alt="Kids Image"
+              />
+              <figcaption class="kids">Kids</figcaption>
+            </figure>
           </article>
         </section>
 
@@ -128,7 +160,7 @@
           <h1>Join our mailing list</h1>
           <p>Receive exclusive updates on sales,stories & product launches.</p>
           <form action="#">
-            <label for="email_input"></label
+            <label for="email_input">Email:</label
             ><input
               type="email"
               name="email"
@@ -142,26 +174,26 @@
         <section>
           <h1>
             Follow us:
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
           </h1>
         </section>
 
         <section class="shopsection">
           <article class="item 1">
             <h1>Shop</h1>
-            <a href="#">Mens</a>
-            <a href="#">Womens</a>
-            <a href="#">Kids</a>
-            <a href="#">Brands</a>
-            <a href="#">Latest</a>
+            <a href="mens">Mens</a>
+            <a href="womens">Womens</a>
+            <a href="kids">Kids</a>
+            <a href="Brands">Brands</a>
+            <a href="latest">Latest</a>
           </article>
 
           <article class="item 2">
             <h1>Help</h1>
-            <a href="#">FAQs & contact</a>
-            <a href="#">Shiping & Returns</a>
+            <a href="FAQs & contact">FAQs & contact</a>
+            <a href="Shiping & Returns">Shiping & Returns</a>
           </article>
         </section>
       </footer>
